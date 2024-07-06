@@ -3,7 +3,7 @@
 
 ## preview
 
-![App Screenshot](https://drive.google.com/file/d/1zzOHDU8GkaPtnhYeXlkZSD9juTz6tROt/view?usp=sharing)
+![](https://drive.google.com/file/d/1zzOHDU8GkaPtnhYeXlkZSD9juTz6tROt/view?usp=drive_link)
 
 ## Developed by 💻 
 
