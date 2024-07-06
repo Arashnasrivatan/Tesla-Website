@@ -1,0 +1,113 @@
+@font-face {
+    font-family: teslafontsite;
+    src: url(../font/GothamSSm-Medium_Web.woff2);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: teslafontsite;
+    scroll-behavior: smooth;
+  }
+  html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  section {
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .modelY {
+    background: url('../images/Homepage-Model-Y-Desktop-Global.jpg') center/cover no-repeat;
+  }
+  .model3 {
+    background: url('../images/Homepage-Model-3-Desktop-LHD-v2.jpg') center/cover no-repeat;
+  }
+  .modelX {
+    background: url('../images/Homepage-Model-X-Desktop-v2.jpg') center/cover no-repeat;
+  }
+  .models {
+    background: url('../images/Homepage-Model-S-Desktop-v2.jpg') center/cover no-repeat;
+  }
+  .cybertruck {
+    background: url('../images/Homepage-Cybertruck-Desktop.jpg') center/cover no-repeat;
+  }
+
+  header{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    backdrop-filter: blur(7px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .logo{
+    width: 150px;
+  }
+
+  .links{
+    width: calc(30%,100%);
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        text-decoration: none;
+        padding: 10px;
+        backdrop-filter: blur(5px);
+        background-color: rgba(255, 255, 255, 0.088);
+        border-radius: 8px;
+        color: black;
+        font-weight: 400;
+        transition: 0.5s;
+    }
+    a:hover{
+            background-color: rgba(255, 255, 255, 0.316);
+            transform: scale(1.1);
+        }
+  }
+  .headericons{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 10px;
+    i{
+        font-size: 18px;
+    }
+  }
+
+  .carinfo{
+    margin-bottom: calc(650px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .cybertruckimg{
+    height: 125px !important;
+    width: 100%;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    gap: 15px;
+  }
